@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dark body {
+    @apply bg-gray-900 text-gray-200; 
+}
+
+.dark a {
+    @apply text-blue-400; 
+}
+
+.dark button {
+    @apply  text-white; 
+}
+.dark input {
+    @apply   text-gray-900; 
+    @apply  bg-white; 
+
+}
+.dark div{
+    @apply text-white;
+    @apply  bg-gray-900;
+}
+body {
+    @apply bg-white text-gray-900; 
+}
+
+a {
+    @apply text-blue-400; 
+}
+
+button {
+    @apply  text-gray-900; 
+}
+input {
+    @apply  bg-gray-900; 
+    @apply  text-white; 
+
+
+}
+div{
+    @apply bg-white;
+    @apply text-gray-800;
+}
